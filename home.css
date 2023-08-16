@@ -1264,7 +1264,7 @@ li .active {
     color: rgb(255, 255, 255);
     background-color: rgb(16, 82, 223);
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     font-family: agency fb;
     padding: 10px;
     border-radius: 5px;
@@ -1281,7 +1281,7 @@ li .active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 153, 255);
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     font-family: agency fb;
     padding: 10px;
     border-radius: 5px;
