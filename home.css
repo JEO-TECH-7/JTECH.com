@@ -1740,11 +1740,12 @@ label::before {
 
   .footer1 {
     position: static;
-    margin-top: 50px;
+    margin-top: 500px;
     background-color: rgb(0, 153, 255);
     width: 100%;
     color: white;
     z-index: 3;
+    display: block;
 }
 
 .footer2 {
@@ -1754,6 +1755,7 @@ label::before {
     width: 100%;
     color: white;
     z-index: 3;
+    display: block;
 }
 
 .footer3 {
@@ -1763,30 +1765,30 @@ label::before {
     width: 100%;
     color: white;
     z-index: 3;
+    display: block;
 }
 
 .footer1 p {
     height: 30px;
-    font-size: 10px;
+    font-size: 5px;
     font-family: arial;
-    display: inline-flex;
+    text-align: left;
     margin-left: 5px;
 }
 
 .footer2 p {
     height: 30px;
-    font-size: 10px;
+    font-size: 5px;
     font-family: arial;
-    display: inline-flex;
-    margin-left: 2px;
+    text-align: left;
+    margin-left: 5px;
 }
 
 .footer3 p {
     height: 30px;
-    font-size: 10px;
+    font-size: 5px;
     font-family: arial;
-    display: inline-flex;
-    margin-left: 5px;
+    text-align: left;
 }
 
 }
