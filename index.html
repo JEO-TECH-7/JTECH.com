@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JTECH-HOME</title>
+		<link rel="stylesheet" href="home.css">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="menu-bar">
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+  
+          <li><a href="#">Services</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="services1.html">COMPUTER SOFTWARE</a></li>
+                <li><a href="services2.html">GRAPHIC DESIGN</a></li>
+              </ul>
+            </div>
+          </li>
+  
+          <li><a href="#">Contact</a>
+            <div class="sub-menu-2">
+              <ul>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpclWcKRrTxqCfWpdjZSNBJkvrHqzbWdTNhbMmDcPJSkVhptGjtJBCdbhfcXjclWbwxVpB" target="_blank" onclick="alert ('You are about to exit the site, Continue?')"><img src="images/gmail.png" class="gmail">Gmail</a></li>
+                <li><a href="https://www.facebook.com/jeo.malegado" target="_blank" style="color: rgb(17, 17, 239); font-weight: 300;" onclick="alert ('You are about to exit the site, Continue?')"><img src="images/fb.png" class="fb">facebook</a></li>
+              </ul>
+            </div>
+          </li>
+  
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+  
+      <img src="images/image.jpg" class="logo">
+      <form action="https://www.google.com/search" method="get" id="search-form" target="_blank">
+        <div>
+            <input class="search-bar" name="q" type="text" placeholder="Search in google" id="search-input"></input>
+            <button type="submit" class="search"><img src="images/search.png" class="search-icon"></button>			
+        </div>
+          <img src="images/voice.png" class="voice" onclick="startDictation()">
+        </form>
+
+        <img src="images/menu.png" class="click">
+        <div class="side-bar">
+            <ul>
+    
+              <li><a class="active" href="index.html">Home</a></li>
+    
+              <li><a href="services1.html">COMPUTER SOFTWARE</a></li>
+      
+              <li><a href="services2.html">GRAPHIC DESIGN</a></li>
+      
+              <li><a href="about.html">About</a></li>
+  
+              <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpclWcKRrTxqCfWpdjZSNBJkvrHqzbWdTNhbMmDcPJSkVhptGjtJBCdbhfcXjclWbwxVpB" target="_blank" onclick="alert ('You are about to exit the site, Continue?')" style="display: inline-flex;"><img src="images/gmail.png" class="gmail">Gmail</a></li>
+  
+              <li><a href="https://www.facebook.com/jeo.malegado" target="_blank" onclick="alert ('You are about to exit the site, Continue?')" style="display: inline-flex;"><img src="images/fb.png" class="fb">facebook<a></li>
+      
+            </ul>
+
+            <div class="footer2" style="font-size: 5px;">
+              <p>All right reserved @2023</p> <p>jeoaligado@gmail.com</p><p>jeomalegado@facebook.com</p><br>
+              <p>Icons by: <a href="https://www.canva.com" target="_blank" style="text-decoration: none; color: white;">https://www.canva.com</a></p>
+            </div>
+        </div>
+    </header>
+
+    <img src="images/life.jpg" class="header">
+
+    <div class="body">
+
+        <h1 class="welcome-text"> 
+          WELCOME mga ka-EXPLORE!
+        </h1>
+
+            <div class="first">
+              <a href="about.html"><button class="tutorial1">READ MORE.</button></a>
+              <a href="services1.html"><button class="tutorial2">GET HELP.</button></a>
+            </div>
+      
+              <div class="date" style="display: grid; grid-template-rows: 30% 70%">
+                <div class="top">
+                <p style="font-size: 16px; font-weight: 300;">Today:</p>
+                <p id="day" style="font-weight: 600; font-size: 20px;">Friday,</p>
+                <p id="year" style="font-weight: 600; font-size: 30px; margin-left:10px;">2023</p>
+                </div>
+                <div class="down">
+                <p id="month" style="font-weight: 600; font-size: 25px;">August</p>
+                <p id="date" style="font-weight: 600; font-size: 150px;">10</p>
+                </div>
+              </div>
+
+              <div class="socmed"><p><img src="images/gmail.png" class="fbimage">jeoaligado@gmail.com</p><p><img src="images/fb.png" class="gimage">jeomalegado@facebook.com</p></div>
+
+              <div class="socmed2"><p>Made by exploration only<br>
+                Icons by: www.canva.com</p></div>
+
+    </div>
+
+  </body>
+
+  <script src="voice.js"></script>
+  <script src="sidebar.js"></script>
+  <script src="calendar.js"></script>
+
+</html>
