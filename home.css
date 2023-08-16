@@ -1146,7 +1146,7 @@ li .active {
 .about {
     display: block;
     background-color: rgba(255, 255, 255, 0.3);
-    height: 1500px;
+   height: 1400px;
     width: 260px;
     border-radius: 4px;
     margin-left: 10px;
