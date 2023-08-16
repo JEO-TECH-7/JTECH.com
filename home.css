@@ -1475,7 +1475,7 @@ label::before {
   
   .input1 {
     background: none;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
     font-weight: 300;
     border: solid white;
@@ -1495,7 +1495,7 @@ label::before {
 
   .input2 {
     background: none;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
     font-weight: 300;
     border: solid white;
@@ -1516,7 +1516,7 @@ label::before {
 
   .input3 {
     background: none;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
     font-weight: 300;
     border: solid white;
@@ -1537,7 +1537,7 @@ label::before {
 
   .input4 {
     background: none;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
     font-weight: 300;
     border: solid white;
@@ -1558,7 +1558,7 @@ label::before {
 
   .button {
     background: rgb(1, 32, 97);
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 300;
     border:none;
@@ -1570,7 +1570,7 @@ label::before {
     margin-left: 10px;
     border: none;
     border-radius: 21px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 10px black;
   }
   
 .input1::placeholder {
@@ -1664,8 +1664,11 @@ label::before {
 }
 
 .socmed3 p{
-    margin: 10px;
-    text-align: center;
+    margin: 10px auto;
+    left: 0;
+    right: 0;
+    font-weight: 400;
+
 }
 
 
