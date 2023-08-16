@@ -1083,10 +1083,9 @@ body {
     margin-top: 13.5px;
     margin-left: 48px;
     padding-top: 2px;
-    width: 35px;
-    height: 35px;
+    width: 32px;
     background-color: transparent;
-    border-radius: 15px;
+    border-radius: 25px;
     outline: none;
     border: none;
     text-align: center;
