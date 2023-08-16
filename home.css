@@ -1254,11 +1254,10 @@ li .active {
 
 .first {
     display:block;
-    width: fit-content;
     left: 0;
     right: 0;
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 40px auto;
     align-items: center;
 }
 
