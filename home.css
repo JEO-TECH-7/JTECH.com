@@ -964,7 +964,7 @@ label::before {
 
     padding: 0;
     margin: 0;
-    font-family: outfit;
+    font-family: outfi;
     font-weight: lighter;
     box-sizing:border-box;
     text-decoration: none;
@@ -1041,7 +1041,7 @@ body {
     right: 0;
     left: 0;
     font-family:arial;
-    font-size: 10px;
+    font-size: 16px;
     color: black;
     margin-top:12px;
     margin-left:45px;
@@ -1064,7 +1064,7 @@ body {
     font-family: Outfit;
     font-weight: 300;
     font-style: italic;
-    font-size: 10px;
+    font-size: 16px;
     margin-left: 0px;
 }
 
@@ -1080,7 +1080,7 @@ body {
 .search {
     position: fixed;
     top: 0;
-    margin-top: 13.5px;
+    margin-top: 12.5px;
     margin-left: 48px;
     padding-top: 2px;
     width: 32px;
@@ -1237,7 +1237,7 @@ li .active {
 
 .life {
     position: fixed;
-    filter: brightness(40%);
+    filter: brightness(35%);
     z-index: -1;
     top: 0;
 }
@@ -1269,8 +1269,9 @@ li .active {
     color: rgb(255, 255, 255);
     background-color: rgb(16, 82, 223);
     text-align: center;
-    font-size: 12px;
-    font-family: agency fb;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -1286,8 +1287,9 @@ li .active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 243, 251);
     text-align: center;
-    font-size: 12px;
-    font-family: agency fb;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -1406,7 +1408,7 @@ input[type=radio]{
     align-items: center ;
     padding: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     overflow: hidden;
     cursor:pointer;
@@ -1460,7 +1462,7 @@ label::before {
 .form {
     background: rgba(16, 82, 223,0.3);
     font-family: outfit;
-    font-size: 20px;
+    font-size: 18px;
     color:white;
     display: flex;
     width: 155px;
@@ -1563,8 +1565,8 @@ label::before {
     font-weight: 300;
     border:none;
     outline: none;
-    height: 40px;
-    width: 100px;
+    height: 35px;
+    width: 80px;
     cursor: pointer;
     margin-top: 10px;
     margin-left: 10px;
