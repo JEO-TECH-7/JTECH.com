@@ -1762,23 +1762,26 @@ label::before {
 
 .footer1 p {
     height: 30px;
+    font-size: 10px;
     font-family: arial;
     display: inline-flex;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .footer2 p {
     height: 30px;
+    font-size: 10px;
     font-family: arial;
     display: inline-flex;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 
 .footer3 p {
     height: 30px;
+    font-size: 10px;
     font-family: arial;
     display: inline-flex;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 }
