@@ -539,14 +539,7 @@ input[type=radio]{
     overflow: hidden;
     transform: slide 1s ease;
     box-shadow: 5px 5px 5px black;
-}
-
-
-.design {
-    width: 200px;
-    margin-left: 5px;
-    border-radius: 10px;
-}
+}
 
 .me {
     width: 200px;
@@ -571,13 +564,7 @@ label::before {
     margin-right: 10px;
     font-size: 23px;
 
-}
-
-.id {
-    width: 100px;
-    border-radius: 5px;
-    margin-left: 100px;
-}
+}
 
 .polo {
     width: 300px;
@@ -1190,7 +1177,8 @@ li .active {
     height: 1300px;
     border-radius: 4px;
     left: 0;
-    right: 0;
+    right: 0;
+    width: 290px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 200px;
@@ -1244,7 +1232,7 @@ li .active {
 .nname {
     text-align:center;
     padding-top: 50px;
-    font-family: century gothic;
+    font-family: outfit;
     font-size: 16px;
     font-weight: 600;
     color: rgb(0, 0, 0);
@@ -1386,14 +1374,7 @@ input[type=radio]{
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 5px 5px black;
-}
-
-
-.design {
-    width: 100px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
+}
 
 .me {
     width: 100px;
