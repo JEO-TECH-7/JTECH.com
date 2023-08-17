@@ -539,7 +539,8 @@ input[type=radio]{
     overflow: hidden;
     transform: slide 1s ease;
     box-shadow: 5px 5px 5px black;
-}
+}
+
 
 .me {
     width: 200px;
@@ -564,7 +565,8 @@ label::before {
     margin-right: 10px;
     font-size: 23px;
 
-}
+}
+
 
 .polo {
     width: 300px;
@@ -769,7 +771,6 @@ label::before {
 
 .fbimage, .gimage{
     width: 15px;
-    height: 15px;
 } 
 
 .footer1 {
@@ -1374,7 +1375,8 @@ input[type=radio]{
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 5px 5px black;
-}
+}
+
 
 .me {
     width: 100px;
