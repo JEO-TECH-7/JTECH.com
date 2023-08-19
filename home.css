@@ -1383,8 +1383,8 @@ p .gimage {
         background-color: rgb(16, 82, 223);
         text-align: center;
         font-size: 20px;
-        font-family: agency fb;
-        padding: 10px;
+        font-family: "agency fb";
+        padding: 5px;
         border-radius: 5px;
         border: none;
         margin: 5px;
@@ -1402,8 +1402,8 @@ p .gimage {
         background-color: rgb(0, 243, 251);
         text-align: center;
         font-size: 20px;
-        font-family: agency fb;
-        padding: 10px;
+        font-family: "agency fb";
+        padding: 5px;
         border-radius: 5px;
         border: none;
         margin: 5px;
