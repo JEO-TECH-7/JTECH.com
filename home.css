@@ -1245,7 +1245,7 @@ p .gimage {
     }
     
     .first {
-        display: grid;
+        display:inline-block;
         position: absolute;
         left: 0;
         right: 0;
