@@ -1055,9 +1055,9 @@ hr {
     }
     
     .search-bar::placeholder {
-        color:rgba(7, 159, 206, 0.8);
+        color:rgba(7, 159, 206, 0.6);
         font-family: Outfit;
-        font-weight: 500;
+        font-weight: 300;
         font-style: italic;
         margin-left: 0px;
     }
