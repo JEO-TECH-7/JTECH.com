@@ -16,21 +16,20 @@
     }
 }
 
-
 .header {
     position: absolute;
     top: 0;
     width: 100%;
     filter: brightness(40%);
-    z-index: -1;
+    z-index: 1;
 }
 
 .body {
-    position: absolute;
     background: linear-gradient(white, rgb(0, 153, 255));
+    position: absolute;
     top:0px;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     animation: slide 1s ease;
 
 }
@@ -298,11 +297,12 @@
     right: 0;
     top: 400px;
     justify-content: center;
+    z-index: 2;
 }
 
 .welcome-text {
     position: absolute;
-    color: rgb(0, 243, 251);
+    color: rgb(7, 159, 206);
     font-size: 40px;
     text-align: center;
     text-decoration: double;
@@ -316,7 +316,7 @@
 
 .welcome-text2 {
     position: absolute;
-    color: rgb(0, 243, 251);
+    color: rgb(7, 159, 206);
     font-size: 40px;
     text-align: center;
     text-decoration: double;
@@ -746,6 +746,7 @@ label::before {
     top: 580px;
     margin-left: 150px;
     height: fit-content;
+    z-index: 2;
 
 }
 
@@ -764,6 +765,7 @@ label::before {
     left: 50px;
     top: 850px;
     color: white;
+    z-index: 2;
 
 }
 
@@ -942,6 +944,9 @@ p .gimage {
     background: none;
   }
 
+hr {
+    font-weight: 50px;
+}
 
 
 
@@ -1258,7 +1263,7 @@ p .gimage {
         left: 0;
         right: 0;
         position: absolute;
-        color: rgb(0, 243, 251);
+        color: rgb(7, 159, 206);
         font-size: 30px;
         text-align: center;
         text-decoration: double;
@@ -1271,7 +1276,7 @@ p .gimage {
     
     .welcome-text2 {
         position: absolute;
-        color: rgb(0, 243, 251);
+        color: rgb(7, 159, 206);
         font-size: 30px;
         text-align: center;
         text-decoration: double;
@@ -1367,7 +1372,8 @@ p .gimage {
     
     .nname {
         text-align:center;
-        font-family: century gothic;
+        font-family: "century gothic";
+        font-size: 24px;
         font-weight: 600;
         color: rgb(41, 41, 41);
         margin-top: 20px;
@@ -1487,12 +1493,11 @@ p .gimage {
         position: relative;
         left: 0;
         right: 0;
-        margin-top: 200px;
-        width: 100%;
+        margin-top: 200;
         margin-left: 0px;
         margin-right: 0px;
         padding: 5px;
-        margin-bottom: 100px;
+        margin-bottom: 50vh;
     }
     
     .accordion li{
@@ -1711,6 +1716,7 @@ p .gimage {
         top: 460px; 
         margin-left: 0px;
         height: fit-content;
+        
     
     }
     
@@ -1736,13 +1742,13 @@ p .gimage {
     }
     
     p .fbimage {
-        width: 15px;
-        height: 15px;
+        width: 18px;
+        height: 18px;
     } 
     
     p .gimage {
-        width: 15px;
-        height: 15px;
+        width: 18px;
+        height: 18px;
     } 
     
     
@@ -1866,10 +1872,11 @@ p .gimage {
         margin-top: 63px;
         background-color: rgba(129, 127, 127, 0.5);
         color: white;
-        padding: 5px;
+        padding-left: 5px;
+        padding-right: 0;
         position: fixed;
         right: -120px;
-        z-index: 2;
+        z-index: 3;
         transition: right 0.5s ease-in-out;
       }
 
@@ -1886,8 +1893,8 @@ p .gimage {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 3px;
-        margin-right: 3px;
-        border-radius: 2px;
+        margin-right: 0;
+        border-radius: 0;
       }
     
       .side-bar ul li:hover {
