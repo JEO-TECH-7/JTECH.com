@@ -1264,13 +1264,13 @@ hr {
         right: 0;
         position: absolute;
         color: rgb(7, 159, 206);
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         text-decoration: double;
         font-weight: 600;
         font-family: "outfit";
         animation: slide 1s ease;
-        top: 160px;
+        top: 175px;
         z-index: 1;
     }
     
