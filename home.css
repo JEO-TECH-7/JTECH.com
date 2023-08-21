@@ -3,7 +3,7 @@
 
     padding: 0;
     margin: 0;
-    font-family: "Outfit", "century gothic", normal, Roboto, Arial, sans-serif;
+    font-family: "Outfit", "century gothic", "Didact Gothic", normal, Roboto, Arial, sans-serif;
     font-weight: lighter;
     box-sizing:border-box;
     text-decoration: none;
@@ -960,7 +960,7 @@ hr {
     
         padding: 0;
         margin: 0;
-        font-family: "Outfit", "century gothic", normal;
+        font-family: "Outfit", "century gothic", "Didact Gothic", normal, Roboto, Arial, sans-serif;
         font-weight: lighter;
         box-sizing:border-box;
         text-decoration: none;
