@@ -1144,14 +1144,14 @@ hr {
     }
     
     .gmail {
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
         border-radius: 5px;
     }
     
     .fb {
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
         border-radius: 5px;
     }
     
@@ -1731,8 +1731,17 @@ hr {
         right: 0;
         top: 820px;
         color: white;
-    
     }
+
+    p .fbimage {
+        width: 15px;
+        height: 15px;
+    } 
+    
+    p .gimage {
+        width: 15px;
+        height: 15px;
+    } 
     
     .footer1, .footer2, .footer3 {
         display: block;
@@ -1896,7 +1905,7 @@ hr {
     }
     
       .side-bar ul li a {
-        display: inline-flex;
+        display: inline-block;
         list-style: none;
         text-decoration: none;
         color: white;
