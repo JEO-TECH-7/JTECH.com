@@ -1714,6 +1714,7 @@ hr {
     }
     
     .socmed p {
+        display: inline-block;
         color: white;
         display: inline-flex;
         font-family: "Outfit";
@@ -1734,13 +1735,13 @@ hr {
     }
 
     p .fbimage {
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
     } 
     
     p .gimage {
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
     } 
     
     .footer1, .footer2, .footer3 {
