@@ -1144,12 +1144,14 @@ hr {
     }
     
     .gmail {
-        width: 15px;
+        width: 16px;
+        height: 16px;
         border-radius: 5px;
     }
     
     .fb {
         width: 15px;
+        height: 15px;
         border-radius: 5px;
     }
     
@@ -1731,17 +1733,6 @@ hr {
         color: white;
     
     }
-    
-    p .fbimage {
-        width: 16px;
-        height: 16px;
-    } 
-    
-    p .gimage {
-        width: 16px;
-        height: 16px;
-    } 
-    
     
     .footer1, .footer2, .footer3 {
         display: block;
