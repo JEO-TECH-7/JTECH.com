@@ -431,6 +431,7 @@
     background-color: rgb(16, 82, 223);
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
     font-family: agency fb;
     padding: 10px;
     border-radius: 5px;
@@ -450,6 +451,7 @@
     background-color: rgb(0, 243, 251);
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
     font-family: agency fb;
     padding: 10px;
     border-radius: 5px;
@@ -1258,7 +1260,7 @@ hr {
         right: 0;
         position: absolute;
         color: rgb(7, 159, 206);
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
         text-decoration: double;
         font-weight: 600;
@@ -1911,7 +1913,7 @@ hr {
     }
     
       .side-bar ul li a {
-        display: block;
+        display: inline-block;
         list-style: none;
         text-decoration: none;
         color: white;
@@ -1919,7 +1921,7 @@ hr {
         margin-bottom: 5px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 14px;
     
       }
     
