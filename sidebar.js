@@ -5,9 +5,15 @@ let sidebarVisible = false;
 
 toggleButton.addEventListener('click', () => {
   if (sidebarVisible) {
-    sidebar.style.right = '-300px';
+    sidebar.style.right = '-125px';
   } else {
     sidebar.style.right = '0';
   }
   sidebarVisible = !sidebarVisible;
+});
+
+document.addEventListener("click", (event) => {
+  if (event.target !== sidebar && event.target !== toggleButton) {
+    sidebar.style.right = '-125px';
+  }
 });
