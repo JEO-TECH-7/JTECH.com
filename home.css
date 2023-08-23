@@ -312,8 +312,8 @@
     font-weight: 600;
     font-family: "outfit";
     animation: slide 1s ease;
-    top: 320px;
-    left: 400px;
+    top: 250px;
+    left: 750px;
     z-index: 1;
 }
 
@@ -881,22 +881,17 @@ p .gimage {
     
 }
 
-.click:hover {
-    background-color: rgba(190, 189, 189, 0.5)
-}
-
-
 .side-bar {
     display: none;
     flex-direction: column;
-    width: 120px;
+    width: 125px;
     height: 100%;
     margin-top: 63px;
     background-color: rgba(129, 127, 127, 0.5);
     color: white;
     padding: 5px;
     position: fixed;
-    right: -120px;
+    right: -125px;
     z-index: 2;
     transition: right 0.5s ease-in-out;
   }
@@ -1271,7 +1266,7 @@ hr {
     .welcome-text2 {
         position: absolute;
         color: rgb(7, 159, 206);
-        font-size: 30px;
+        font-size: 24px;
         text-align: center;
         text-decoration: double;
         font-weight: 600;
@@ -1738,13 +1733,13 @@ hr {
     }
     
     p .fbimage {
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     } 
     
     p .gimage {
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     } 
     
     
@@ -1864,10 +1859,6 @@ hr {
         z-index: 3;
         
     }
-    
-    .click:hover {
-        background-color: rgba(190, 189, 189, 0.5)
-    }
 
     .side-bar {
         display: flex;
@@ -1904,6 +1895,7 @@ hr {
         border-bottom-right-radius: 0px;
         border-top-left-radius: 2px;
         border-bottom-left-radius: 2px;
+        transition: right 0.5s ease-in-out;
       }
     
       .side-bar ul li:hover {
@@ -1913,7 +1905,7 @@ hr {
     }
     
       .side-bar ul li a {
-        display: inline-block;
+        display: inline-flex;
         list-style: none;
         text-decoration: none;
         color: white;
